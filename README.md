@@ -8,15 +8,12 @@ A full-stack enterprise **Hospital Management System** designed to automate and 
 
 ### Frontend
 - **Framework**: React 18 with Vite
-- **Routing**: React Router DOM (v6)
-- **HTTP Client**: Axios
-- **Styling**: Modern CSS Design System (Responsive Flexbox/Grid, Modals, Cards, Badges)
 
 ### Backend
 - **Language**: Java 17
 - **Framework**: Spring Boot 3.2.4
 - **Modules**: Spring Web (REST APIs), Spring Data JPA, Spring Boot Validation
-- **Database**: MySQL 8.x
+- **Database**: MySQL
 - **Build Tool**: Maven
 
 ---
@@ -36,8 +33,6 @@ Repository Layer (Spring Data JPA)
        ▼
 MySQL Database (hms_db)
 ```
-
----
 
 ## 📁 Project Structure
 
@@ -64,8 +59,6 @@ HMS/
 │   └── package.json
 └── README.md
 ```
-
----
 
 ## 🚀 Getting Started
 
@@ -97,16 +90,3 @@ npm install
 npm run dev
 ```
 The React frontend will run at `http://localhost:5173`.
-
----
-
-## 🔑 Key Features
-- **Department Management**: Add, update, delete, and view clinical departments.
-- **Doctor Management**: Assign doctors to departments and manage specializations.
-- **Patient Management**: Patient registration, validation (NIC uniqueness, phone format), and live search.
-- **Appointment Scheduling**: Smart booking system with **conflict prevention** preventing double-booking for doctors at the same date & time.
-- **Medical Records**: Track diagnoses, prescriptions, and notes per patient.
-- **Dashboard Analytics**: High-level overview of total patients, doctors, departments, and appointment metrics.
-
----
-# Hospital-Management-System-HMS-
